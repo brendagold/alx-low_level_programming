@@ -10,21 +10,19 @@
 
 int main(void)
 {
-	int character = 'a';
-	int CHARACTER = 'A';
+	char character;
+	char CHARACTER;
 
 	while (character < 'z')
 	{
 		putchar(character);
 		character++;
-	}	
-	
+	}
 	while (CHARACTER < 'Z')
 	{
 		putchar(CHARACTER);
 		CHARACTER++;
 	}
-
 	putchar('\n');
 	return (0);
 
