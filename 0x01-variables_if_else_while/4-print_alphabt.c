@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -14,10 +13,10 @@ int main(void)
 
 	for (character = 'a'; character <= 'z' ; character++)
 	{
-		putchar(character);
-	}
-	for (character = 'A'; character <= 'Z' ; character++)
-	{
+		if (character == 'q' || character == 'e')
+		{
+			continue;
+		}
 		putchar(character);
 	}
 	putchar('\n');
