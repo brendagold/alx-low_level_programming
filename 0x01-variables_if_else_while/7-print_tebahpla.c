@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet in reverse
  *
  * Return: Always 0 (Success)
  *
@@ -10,11 +9,11 @@
 
 int main(void)
 {
-	char character;
+	int i;
 
-	for (character = 'z'; character <= 'a' ; character--)
+	for (i = 122; i > 96 ; i--)
 	{
-		putchar(character);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
