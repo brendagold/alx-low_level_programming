@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints numbers 0 to 9 and alphabets a to f
  *
  * Return: Always 0 (Success)
  *
@@ -9,19 +9,15 @@
 
 int main(void)
 {
-	unsigned char character;
 	int i;
 
-	for (i = 0; i < 10 ; i++)
+	for (i = 48; i < 58 ; i++)
 	{
-		putchar(character);
-		character++;
+		putchar(i);
 	}
-	character = '1';
-	for (i = 0; i < 6 ; i++)
+	for (i = 97; i < 103 ; i++)
 	{
-		putchar('0' + character);
-		character++;
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
