@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * Print Alphabet - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - prints alphabets in lowercase
  *
  */
 
@@ -11,7 +9,7 @@ void print_alphabet(void)
 {
 	char alphabet = 'a';
 
-	while(alphabet <= 'z')
+	while (alphabet <= 'z')
 	{
 		_putchar(alphabet);
 		alphabet++;
