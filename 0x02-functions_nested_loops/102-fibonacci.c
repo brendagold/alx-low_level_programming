@@ -10,26 +10,22 @@
 
 int main(void)
 {
-	long int first, second, sum;
-	int count;
+	long int i, j, k, l;
 
-	sum = 0;
-	first = 0;
-	second = 1;
-	count = 0;
+	j = 1;
+	k = 2;
 
-	while (count < 49)
+	for (i = 1; i <= 50; ++i)
 	{
-		sum = first + second;
-		printf("%d, ", sum);
-		first = second;
-		second = sum;
+		if (j != 20365011074)
+			printf("%d, ", j);
+		else
+			printf("%ld\n", j);
 
-		count++;
+		l = j + k;
+		j = k;
+		k = l;
 	}
-	sum = first + second;
-	printf("%d\n", sum);
 
 	return (0);
-
 }
