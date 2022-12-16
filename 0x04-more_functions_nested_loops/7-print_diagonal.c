@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - print diagonally
- * @d: parameter
+ * @n: parameter
  * Return: 0 if successful
  */
 

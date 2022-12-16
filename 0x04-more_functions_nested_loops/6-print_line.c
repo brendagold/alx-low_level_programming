@@ -2,7 +2,7 @@
 
 /**
  * print_line - draw a line of n
- * @d: parameter
+ * @n: parameter
  * Return: 0 if successful
  */
 
