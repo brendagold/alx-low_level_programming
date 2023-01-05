@@ -37,9 +37,9 @@ int is_prime_number(int num)
 	interator = 2;
 
 	/* only greater than 2 */
-	if (n < 2)
+	if (num < 2)
 		return (0);
-	if (n == 0)
+	if (num == 0)
 		return (1);
 	return (evaluate_num(num, iterator));
 }
